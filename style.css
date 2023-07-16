@@ -75,13 +75,51 @@ header{
     font-size: 20px;
     cursor: pointer;
 }
+/* enjoy section*/
+.enjoy{
+    margin-top: 60px;
+    display: flex;
+    gap: 55px;
+    margin-left:10px ;
+    margin-right: 40px;
+    
+}
+.enjoy-container{
+    margin-left: 54px;
+}
+.enjoy-title{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.enjoy-description{
+    padding-bottom:23px ;
+}
+
+.card{
+    border: 0px solid aliceblue;
+    background-color: aliceblue;
+    margin: 16px 0;
+    padding: 23px 25px;
+    box-shadow: 4px 4px 4px gray;
+}
+.card-title{
+    padding-bottom: 12px;
+}
+.enjoy-image{
+    height: 96%;
+    width: 600px;
+   
+
+
+}
 
 /* main section*/
 .feature-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 50px;
-    padding-left:  59px;
+    
+    margin-left: 59px;
 }
 
 .feature-images{
@@ -222,7 +260,8 @@ span{
     .feature-images{
         
         grid-template-columns: 1fr;
-        padding-left: 35px;
+        padding-right: 24px;
+       
     }
     .facts-section{
         text-align: center;
@@ -246,5 +285,18 @@ span{
         height: 50px;
         width: 190px;
         margin-left: 110px;
+    }
+
+    .enjoy{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .enjoy-container{
+        
+    }
+    .enjoy-image{
+        width: 98%;
+        padding-left: 20px;
     }
 }
