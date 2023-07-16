@@ -77,20 +77,22 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 50px;
+    padding-left:  59px;
 }
 
 .feature-images{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 12px;
-    padding-left: 45px;
+   
 }
 
 .feature-description{
     
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    padding-left: 60px;
+    padding-right: 10px;
 }
 
 .feature-title{
@@ -113,6 +115,8 @@ span{
        flex-direction: column;
        text-align: center;
     }
+    
+    
     .banner-title{
         text-align: center;
         }
@@ -122,8 +126,21 @@ span{
         margin-top: 15px;
 
         }
+        .feature-section{
+            grid-template-columns: 1fr; 
+            padding-right: 20px;
+            padding-left: 20px;  
+            
+        }
+        .feature-description{
+            text-align: center;
+            padding-right: 20px;
+            padding-left: 20px;  
+            
+           
+        }
     .feature-images{
-        display: grid;
-        flex-direction: column;
+        
+        grid-template-columns: 1fr;
     }
 }
